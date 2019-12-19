@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
-    runCollections()
+    // runCollections()
+    someHashMaps()
 }
 
 fun runCollections() {
@@ -25,8 +26,25 @@ fun runCollections() {
         println(elem)
     }
 
-    println(myList.lastIndexOf("car")) // prints out the last occurence of "car" which is 5
+    println(myList.lastIndexOf("car")) // prints out the last
+    // occurence of "car" which is 5
 
+}
 
+private fun someHashMaps() {
+    var myMap = hashMapOf("one" to 1,
+            "two" to 2,
+            "three" to 3,
+            "four" to 4)
+    println(myMap["two"])
+
+    for (i in 1..20) {
+        print("$i ")
+    }
+    println()
+
+    for (i in 50 downTo 30) {
+        print("$i ")
+    }
 
 }
