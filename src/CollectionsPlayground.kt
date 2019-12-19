@@ -46,5 +46,18 @@ private fun someHashMaps() {
     for (i in 50 downTo 30) {
         print("$i ")
     }
+    println()
+
+    for (i in 1..100 step 7) {
+        print("$i ")
+    }
+
+    println("Number of overall reps if down to 15: ")
+    var numOfReps: Int = 0
+    for (i in 15 downTo 1) {
+        numOfReps += i
+    }
+    numOfReps *= 2
+    println(numOfReps)
 
 }
