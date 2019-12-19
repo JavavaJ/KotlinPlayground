@@ -60,4 +60,8 @@ private fun someHashMaps() {
     numOfReps *= 2
     println(numOfReps)
 
+    val nums = (1..7)
+    var numsDoubled = nums.map { e -> e * 2 }
+    println(numsDoubled)
+
 }
