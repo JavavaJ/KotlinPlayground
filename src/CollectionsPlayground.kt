@@ -25,7 +25,7 @@ fun runCollections() {
         println(elem)
     }
 
-    println(myList.lastIndexOf("car"))
+    println(myList.lastIndexOf("car")) // prints out the last occurence of "car" which is 5
 
 
 
